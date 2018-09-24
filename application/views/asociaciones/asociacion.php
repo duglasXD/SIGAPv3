@@ -445,17 +445,7 @@ if(floatval($ua['version']) < $this->config->item("last_version")){
                                             <h5>Fecha de Resolución final:</h5>
                                             <input type="text" class="form-control" id="FECHA_RESOLUCION_FINAL_ASOCIACION" name="FECHA_RESOLUCION_FINAL_ASOCIACION" placeholder="dd/mm/yyyy" readonly="">
                                         </div>
-                                  <!--   <div class="form-group col-lg-4 col-sm-12 <?php if($navegatorless){ echo "pull-left"; } ?>">
-                                        <h5>Estado: <span class="text-danger">*</span></h5>
-                                        <select id="ESTADO_ASOCIACION" name="ESTADO_ASOCIACION" class="form-control custom-select"  style="width: 100%" required="">
-                                            <?php
-                                                if($estado_asociacion->num_rows() > 0){
-                                                    foreach ($estado_asociacion->result() as $fila_ea) {
-                                            ?>
-                                                <option class="m-l-50" value="<?=$fila_ea->ID_ESTADO_ASOCIACION?>"><?=$fila_ea->NOMBRE_ESTADO_ASOCIACION?></option>
-                                            <?php } }?>
-                                        </select>
-                                    </div> -->
+                                  
                                   </div>
                                   <div class="row">
                                         <div class="form-group col-lg-12 col-sm-12 <?php if($navegatorless){ echo "pull-left"; } ?>">
